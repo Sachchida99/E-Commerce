@@ -34,7 +34,7 @@ public class UserInterface {
     public BorderPane createContent(){
         BorderPane root = new BorderPane();
         root.setPrefSize(800, 600);
-        //root.getChildren().add(loginPage);  // method to add nodes as children to Pane
+        //root.getChildren().add(loginPage);  // Method to add nodes as children to Pane
         root.setTop(headerBar);
         //root.setCenter(loginPage);
         body = new VBox();
